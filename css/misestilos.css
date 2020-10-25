@@ -1,0 +1,107 @@
+*{
+margin:0px;
+padding:0px;
+}
+h1 b{
+	display:block;
+	width:210px;
+	margin:0px;
+	padding:5px 0px;
+	text-align:center;
+	color: #FFB134;
+	border:1px solid #FFB134;
+	font: bold 20px verdana, sans-serif;
+	background:#000000;
+	-moz-border-radius:20px/10px;
+	-webkit-border-radius:20px/10px;
+	border-radius:20px/10px;
+	
+	}
+h2{
+	font: bold 22px MiNuevaFuente, verdana, sans-serif;
+	font-family:'MiNuevaFuente';
+	src:url('Lemiesz.ttf');
+}
+
+header, section, footer, aside, nav, article, figure, figcaption, hgroup{
+	display: block;
+	}
+body{
+	text-align:center;
+	}
+#agrupar{
+	width: 960px;
+	margin: 15px auto;
+	text-align: left;
+	background:#FFB134;
+	}
+#cabecera{
+	background:#FFB134;
+	border:1px solid #000000;
+	
+	}
+#menu{
+	background:#000000;
+	font: #FFB134;
+	padding:5px 15px;
+	
+	}
+#menu li{
+		display:inline-block;
+		list-style:none;
+		padding:5px;
+		font:bold 14px verdana, sans-serif;
+}
+#menu li:hover{
+		-moz-transform:rotate(2deg);
+		-webkit-transform:rotate(2deg);
+		
+	}
+#seccion{
+	float:left;
+	width:61%;
+	margin:20px;
+}
+#columna{
+	float:right;
+	width:30%;
+	margin:20px 0px;
+	padding:20px;
+	background:#CCCCCC;
+}
+#pie{
+	clear:both;
+	text-align:center;
+	padding:20px;
+	border-top:2px solid #999999;
+}
+article{
+	background:#FFB134;
+	border:1px solid #FFB134;
+	padding:20px;
+	margin-bottom:15px;
+}
+article footer{
+	text-align:right;
+}
+time{
+	color:#999999;
+}
+figure img{
+	width:500px;
+	
+}
+figcaption{
+	font: italic14px verdana, sans-serif;
+}
+#pie{
+	background:#999999;
+	width:960px;
+	padding:10px;
+	text-align:center;
+	border:1px solid #999999;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+	display:inline-block;
+}
